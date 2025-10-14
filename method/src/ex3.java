@@ -14,15 +14,15 @@ public class ex3 {
         maiorValor(valor1 , valor2, valor3);
     }
 
-    public static void maiorValor(int vlr1, int vlr2, int vlr3){
-        if (vlr1 > vlr2 && vlr2 < vlr3 && vlr3 < vlr1){
-            System.out.println("o maior valor é " +  vlr1);
+    public static void maiorValor(int valor1, int valor2, int valor3){
+        if (valor1 > valor2 && valor1 > valor3){
+            System.out.println("o maior valor é " + valor1);
         }
-        else if (vlr1 < vlr2 && vlr2 > vlr3 && vlr3 > vlr1){
-            System.out.println("O maior valor é " +  vlr2);
+        else if (valor1 < valor2 && valor2 > valor3 ){
+            System.out.println("O maior valor é " + valor2);
         }
         else{
-            System.out.println("O maior valor é " +  vlr3);
+            System.out.println("O maior valor é " + valor3);
         }
     }
 }
